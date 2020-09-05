@@ -125,7 +125,7 @@ body {
 }
 
 .main {
-  background: #000 url(../img/main-bg.jpg) center center no-repeat;
+  background: #000 url(./img/main-bg.jpg) center center no-repeat;
   height: 880px;
 }
 
@@ -379,7 +379,7 @@ transform: translateY(15px);
 
 /* оформляем второй блок */
 .features {
-  background: #000 url(../img/features_bg.jpg) center center no-repeat;
+  background: #000 url(./img/features_bg.jpg) center center no-repeat;
   height: 738px;
 }
 
@@ -405,7 +405,7 @@ margin-bottom: 139px;
 }
 
 .feature-ellipse {
-  background: #11749e url(../img/feature_ellipse.png) center center no-repeat;
+  background: #11749e url(./img/feature_ellipse.png) center center no-repeat;
   height: 133px;
   width: 133px;
   display: inline-block;
@@ -524,7 +524,7 @@ margin-bottom: 24px;
 /* оформляем четвертый блок */
 
 .blog {
-  background: #000 url(../img/blog_bg.jpg) center center no-repeat;
+  background: #000 url(./img/blog_bg.jpg) center center no-repeat;
   height: 1017px;
 }
 
@@ -594,7 +594,7 @@ width: 258px;
 
 /* Делаем footer для блога */
 .blog-footer {
-  background: #000 url(../img/blog_footer_bg.jpg) center center no-repeat;
+  background: #000 url(./img/blog_footer_bg.jpg) center center no-repeat;
   height: 355px;
 }
 
@@ -618,7 +618,7 @@ width: 258px;
 
 /* оформляем пятый блок */
 .phone {
-  background: #000 url(../img/phone-bg.jpg) center top no-repeat;
+  background: #000 url(./img/phone-bg.jpg) center top no-repeat;
   height: 848px;
 }
 
@@ -664,7 +664,7 @@ width: 258px;
 
 /* офомрляем шестой блок */
 .our_team {
-  background: #000 url(../img/our_team_bg.jpg) center center no-repeat;
+  background: #000 url(./img/our_team_bg.jpg) center center no-repeat;
   height: 944px;
 }
 
@@ -786,7 +786,7 @@ margin-top: -2px;
 /* оформляем седьмой блок */
 
 .submit-form {
-  background: #000 url(../img/submit_bg.jpg) center center no-repeat;
+  background: #000 url(./img/submit_bg.jpg) center center no-repeat;
   height: 851px;
 }
 
@@ -861,7 +861,7 @@ button {
 }
 
 .footer {
-  background: #000 url(../img/footer_bg.jpg) center center no-repeat;
+  background: #000 url(./img/footer_bg.jpg) center center no-repeat;
   height: 114px;
   display: flex;
   justify-content: space-around;
