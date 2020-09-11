@@ -138,6 +138,17 @@ body {
   margin: 0 auto;
 }
 
+#fixbox {
+  display:none;
+  position:fixed;
+  top:0;
+  background-color:#808080;
+  width: 100%;
+  height: 115px;
+  max-width: inherit;
+  z-index: 2;
+}
+
 .line {
   height: 1px;
   width: 100%;

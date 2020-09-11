@@ -12,6 +12,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 	<body>
 		<div class="wrapper">
+			<div id="fixbox"></div>
 			<div class="line"></div>
 			<div class="content">
 				<!-- Первый блок с менюшкой -->
@@ -342,6 +343,18 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 			</div>
 
 		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+	<script>
+	jQuery(function(f){
+		var element = f('#fixbox');
+		f(window).scroll(function(){
+			element['fade'+ (f(this).scrollTop() > 880 ? 'In': 'Out')](300);          
+		});
+	});
+	</script>
 
 	</body>
 </html>
